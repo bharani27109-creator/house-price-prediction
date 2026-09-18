@@ -1,0 +1,64 @@
+HOUSE PRICE PREDICTION USING MACHINE LEARNING
+
+Project Title:
+House Price Prediction Using Machine Learning
+
+Student Name:
+Bharani
+
+Department:
+B.Tech Artificial Intelligence and Data Science
+
+Project Objective:
+To predict the estimated price of a house using Machine Learning.
+
+Dataset:
+California Housing Dataset
+
+Algorithm Used:
+Linear Regression
+
+Programming Language:
+Python
+
+Tools and Technologies:
+Python
+Pandas
+Scikit-learn
+Joblib
+Streamlit
+GitHub
+
+Input Features:
+1. Median Income
+2. House Age
+3. Average Rooms
+4. Average Bedrooms
+5. Population
+6. Average Occupants
+7. Latitude
+8. Longitude
+
+Output:
+Estimated House Price
+
+Project Workflow:
+1. Load the dataset.
+2. Prepare the data.
+3. Train the Linear Regression model.
+4. Save the trained model.
+5. Create a Streamlit application.
+6. Enter house details.
+7. Display the predicted house price.
+
+Project Benefits:
+- Easy to use
+- Beginner-friendly Machine Learning project
+- Provides quick price estimation
+- Demonstrates real-world AI application
+
+Future Improvements:
+- Use more advanced Machine Learning algorithms.
+- Improve prediction accuracy.
+- Add charts and graphs.
+- Deploy the application online.
