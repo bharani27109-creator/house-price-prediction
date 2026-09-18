@@ -1,44 +1,63 @@
-# House Price Prediction using Machine Learning
+# 🏠 House Price Prediction Using Machine Learning
 
-## Project Description
+## 📌 Project Description
 
-This project predicts house prices using machine learning. It uses house features such as area, bedrooms, and bathrooms to estimate the price.
+This project predicts the estimated price of a house using Machine Learning.
 
-## Technologies Used
+The user enters house details, and the application predicts the house price.
 
-* Python
-* Pandas
-* Matplotlib
-* Scikit-learn
-* Google Colab
+## 🎯 Objective
 
-## Machine Learning Algorithm
+To build a simple Machine Learning application that predicts house prices based on different house features.
+
+## 📊 Dataset
+
+California Housing Dataset
+
+The dataset contains information about:
+
+- Median Income
+- House Age
+- Average Rooms
+- Average Bedrooms
+- Population
+- Average Occupants
+- Latitude
+- streamlit run app.py
+- 
+### Save it
+
+Your project files will now be:
+
+```text
+house-price-prediction/
+│
+├── app.py
+├── requirements.txt
+└── README.md
+
+## 🤖 Machine Learning Algorithm
 
 Linear Regression
 
-## Features
+## 🛠️ Technologies Used
 
-* House area
-* Number of bedrooms
-* Number of bathrooms
+- Python
+- Pandas
+- Scikit-learn
+- Joblib
+- Streamlit
 
-## Project Workflow
+## ⚙️ How the Project Works
 
-1. Create and load the dataset.
-2. Explore the data.
-3. Visualize the data.
-4. Split the dataset.
-5. Train the model.
-6. Evaluate the model.
-7. Predict house prices.
+1. Load the California Housing Dataset.
+2. Train a Linear Regression model.
+3. Save the trained model.
+4. Take house details from the user.
+5. Predict the estimated house price.
+6. Display the result in the Streamlit application.
 
-## Future Improvements
+## 🚀 How to Run the Project
 
-* Use a larger real-world dataset.
-* Add more house features.
-* Build an interactive web application.
-* Compare multiple machine learning algorithms.
+Install the required libraries:
 
-## Disclaimer
-
-This project is for educational purposes. Predictions are estimates and should not be used as actual property valuations.
