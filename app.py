@@ -1,3 +1,4 @@
+
 import pandas as pd
 import joblib
 
@@ -5,7 +6,7 @@ from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
-# 1. Load the dataset
+# 1. Load dataset
 housing = fetch_california_housing()
 
 # 2. Create DataFrame
@@ -20,7 +21,7 @@ df["PRICE"] = housing.target
 X = df.drop("PRICE", axis=1)
 y = df["PRICE"]
 
-# 4. Split data
+# 4. Split dataset
 X_train, X_test, y_train, y_test = train_test_split(
     X,
     y,
@@ -32,7 +33,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-# 6. Save fresh model
+# 6. Save model
 joblib.dump(
     model,
     "house_price_model.pkl",
